@@ -10,7 +10,7 @@ async insertar(request,response){
             await servicio.registrar(datosPeticion)
             response.status(200).json({
                 mensaje: "exito en el ingreso de datos",
-                datosIngresados: [],
+                datosIngresados: [datosPeticion],
                 estado: true
             })
         } catch (error) {
