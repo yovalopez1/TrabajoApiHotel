@@ -39,7 +39,7 @@ async buscarPorId(request,response){
                 estado: false
             })
         }
-     }
+    }
 
 async editar(request,response){
     let servicio=new ServicioReserva()
